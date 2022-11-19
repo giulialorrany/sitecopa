@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .conteudo{
+            background-color: rgba(187, 174, 174, 0.1);
+            text-align: justify;
+            /* padding:5px 5px; */
+            background:white;
+        }
+        .conteudo span{
+            padding-left: 50%;
+        }
+        h3{
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 50px;
+        }
+        body,html{
+            margin:0;
+            height:100%;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .caixa1, .caixa2, .caixa3, .caixa4,.caixa5,.caixa6{
+            position: relative;
+            height:100%;
+            /* opacity: 0.8; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+            background-attachment: fixed;
+        }
+        .caixa1{
+            background-image: url(fundosele.jpeg);
+        
+        }
+        header{
+            position: absolute;
+            top:25%;
+            width:100%;
+            text-align: center;
+        }
+        .titulo{
+            position: absolute;
+            /* left: 0; */
+            top:7%;
+            width:100%;
+            text-align: center;
+        }
+        .titulo span{
+            color:gold;
+            background-color: darkblue;
+            font-size:25px;
+            padding:18px;
+         
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            
+        }
+        .caixa2{
+            background-image: url(selepart1.jpeg);
+        
+        }
+        .caixa3{
+            background-image:url(part2sele.jpeg);
+        }
+        .caixa4{
+            background-image:url(part3sele.jpeg);
+        }
+        .caixa5{
+            background-image:url(part4sele.jpeg);
+        }
+        .caixa6{
+            background-color:black;
+        }
+
+/* inicio layout */
+        #layout{
+          
+        width: 100%;
+        margin: 120px 5px 5px 35px; 
+        /* float: left; */
+        display:inline-block;
+        /* text-align: center; */
+    
+    }
+            /* #layout div p, #layout div  { */
+                /* padding-bottom: 10px; */
+                /* text-align: left; */
+                /* padding-left: 5px; */
+
+            }
+
+            /* .primario h3, .secundario h3{ */
+                /* text-align: left; */
+                /* line-height:40px; */
+                /* margin-top: 20px; */
+                /* padding-left:5px; */
+            }
+            #primario{
+            width: 60%;
+            float:left;
+            /* border:1px solid red; */}
+            #primario a{
+                padding-left:35px;
+            }
+            #primario a:hover{
+                color:gold;
+            }
+            .img{
+                padding: 0 0 5px 35px;
+                width: 666px;
+              
+            }
+            .caixa3 .img{
+                width: 740px;
+           }
+
+  
+            #secundario{
+                  /* top:20%; */
+                  position:absolute;
+            width: 30%;
+            font-size:18px;
+            float:right;
+            background:rgba(220, 220, 220, 0.63);
+            padding-right: 5px;
+            text-align: center;
+            padding-left: 5px;
+            
+            margin:130px 0 0 850px; 
+            TOP:0%;
+            /* border:1px solid red; */
+            }
+            #secundario h3{
+                /* padding-top:20px; */
+            }
+            #secundario p {
+                margin: -20px 0 15px 60px ;
+                text-align: left;
+                font-size:17px;
+            }
+ 
+
+/* fim layout */
+
+        .links a{
+            font-size:28px;
+            padding:45px;
+            text-decoration: none;
+            font-weight: bold;
+       color:darkblue;
+        }
+        .links {
+            top:20%;
+            list-style: none;
+            text-align: center;
+        }
+                                                                                                                                                                                
+        .links :hover{
+            color:red;
+        }
+        .caixa6 figure{
+            text-align: center;
+           
+            /* top:17%; */
+        }
+        .titulo{
+    
+        }
+       .titlegif figure img{
+            width:30%;
+        
+        }
+        .titlegif {
+            position: absolute;
+            /* left: 0; */
+            top:17%;
+            width:100%;
+            text-align: center;
+        }
+
+        footer#rodape{
+            border-top: 1px solid black;
+            background-color: red;
+            padding:3px;       
+        }
+        footer#rodape p{
+            text-align: center;
+            /* padding:1px;  */
+            color: white;
+        }
+        .links :nth-child(3){
+            color:red;
+        }
+
+    </style>
+</head>
+<body>
+    <div  class="caixa1">
+        <header>
+            <div class="titulo">
+            <!-- <div class="cabecalho"> -->
+    
+            <!-- </div> -->
+       
+        <li class="links">
+            <a href="index.html">HOME</a>
+            <a href="estadiohtml2.html">ESTÁDIOS</a>
+            <a href="selecao.html">SELEÇÃO</a>
+        </li> 
+       </div>
+    </header>
+    </div>
+    <div class="conteudo">
+        <span>1º Seleção</span>
+    </div>
+
+
+    <div class="caixa2">
+        <div class="titulo">
+            <span>seleção brasileira</span>
+            </div>
+            <div id= "layout">
+                <div id="primario">
+                    <!-- <h3>brasil</h3> -->
+                    <img src="brasileira.jpg" alt="seleçãobrasileira" class="img">
+                    <p><a href="#">+ Fotos</a></p>
+                </div>
+                <div id="secundario" class="titulo">
+                    <h3>jogadores da seleção<br> Brasil</h3>
+                    <p class="position"><STRONG>Defesa:</STRONG></p>
+                    <p>
+                        Alisson - Liverpool
+                    </p><br>
+                    <p class="position"><STRONG>Zaga:</STRONG></p>
+                    <p>
+                        Militão - Real Madrid
+                        Marquinhos - PSG
+                      </p><br>
+
+                      <p class="position"><STRONG>Meio-campo:</STRONG></p>
+                    <p>
+                        Casemiro - Manchester United
+                        Fabinho - Liverpool
+                        Fred - Manchester United
+                        Paquetá - West Ham
+                    </p><br>
+
+                    <p class="position"><STRONG>Ataque:</STRONG></p>
+                    <p>
+                        Neymar - PSG
+                        Vinicius Júnior - Real Madrid 
+                        Raphinha - Barcelona
+                    </p><br>
+                  
+                </div>
+            </div>
+        </div>
+        <div class="conteudo">
+        <span>2º Seleção</span>
+    </div>
+
+
+    <div class="caixa3">
+        <div class="titulo">
+            <span>seleção Sérvia</span>
+        </div>
+            <div id= "layout">
+                <div id="primario">
+                    <img src="servia.jpg" alt="seleçãoservia" class="img">
+                    <p><a href="#">+ Fotos</a></p>
+                </div>
+                <div id="secundario" class="titulo">
+                    <h3> jogadores da seleção <br> sérvia</h3>
+                    <p class="position"><STRONG>Gol:</STRONG></p>
+                    <p>
+                        Predrag Rajkovic - RCD Maiorca
+                    </p><br>
+                    <p class="position"><STRONG>Zaga:</STRONG></p>
+                    <p>
+                        Nikola Milenkovic - Fiorentina<br>  
+                        Matija Nastasic - Mallorca<br>  
+                        Strahinja Pavlovic -  Red Bull Salzburg<br>  
+                        
+                      </p><br>
+
+                      <p class="position"><STRONG>Meio-campo:</STRONG></p>
+                    <p>
+                       Nemanja Gudelj - FC Sevilla <br> 
+                       Sasa Lukic - FC Torino<br>
+                       Andrija Zivkovic - PAOK Saloniki 
+                    </p><br>
+
+                    <p class="position"><STRONG>Ataque:</STRONG></p>
+                    <p>
+                        Dusan Tadic - Ajax Amsterdam  <br>
+                        Dusan Vlahovic - Juventus Turim <br> 
+                        Aleksandar Mitrovic - FC Fulham  <br>
+                        Luka Jovic - Real Madrid
+                       
+                    </p><br>
+                  
+                    </p>
+                </div>
+            </div>
+    </div>
+    <div class="conteudo">
+            <span>3º Seleção</span>
+    </div>
+
+
+    <div class="caixa4">
+        <div class="titulo">
+            <span>seleção 3 </span>
+        </div>
+        <div id= "layout">
+            <div id="primario">
+                <img src="suica.jpeg" alt="seleçãosuica" class="img">
+                <p><a href="#">+ Fotos</a></p>
+            </div>
+            <div id="secundario" class="titulo">
+                <h3>jogadores da seleção <br>Suiça</h3>
+                <p class="position"><STRONG>Gol:</STRONG></p>
+                    <p>
+                        Yann - Borussia Mönchengladbach
+                    </p><br>
+                    <p class="position"><STRONG>Zaga:</STRONG></p>
+                    <p>
+                    
+                        Manuel - Borussia Dortmund   <br>                          
+                        Nico - Borussia Mönchengladbach <br>
+                        Fabian - Newcastle United <br>
+                        Eray Cömert - Valencia FC 
+
+                      </p><br>
+
+                      <p class="position"><STRONG>Meio-campo:</STRONG></p>
+                    <p>
+                          Granit - Arsenal FC  <br>
+                          Remo - Atalanta Bergamo  <br>
+                          Xherdan - Chicago Fire 
+                    </p><br>
+
+                    <p class="position"><STRONG>Ataque:</STRONG></p>
+                    <p>
+                         Breel - Borussia Mönchengladbach  <br>
+                         Haris Seferovic - Benfica Lisboa  <br>
+                         Aleksandar Mitrovic - FC Fulham 
+                    </p><br>
+                  
+                    </p>
+            
+            </div>
+        </div>
+
+    </div>
+    <div class="conteudo">
+        <span>4º seleção</span>
+    </div>
+    
+    <div class="caixa5">
+        <div class="titulo">
+            <span>seleção 4 </span>
+        </div>
+        <div id= "layout">
+            <div id="primario">
+                <img src="camaroes3.jpg" alt="seleçãocamaroes" class="img">
+                <p><a href="#">+ Fotos</a></p>
+            </div>
+            <div id="secundario" class="titulo">
+                <h3>jogadores da seleção camarões</h3>
+                <p class="position"><STRONG>Gol:</STRONG></p>
+                <p>
+                    André Onana - Ajax Amsterdam
+                </p><br>
+                <p class="position"><STRONG>Zaga:</STRONG></p>
+                <p>
+                    Michael Ngadeu - KAA Gent <br>
+                    Ean-Charles Castelletto - FC Nantes <br>
+                    Nouhou - Seattle Sounders FC <br>
+                    Collins Fai - Al-Tai
+                  </p><br>
+
+                  <p class="position"><STRONG>Meio-campo:</STRONG></p>
+                <p>
+                    Nicolas Moumi Ngamaleu - YB Bern <br>
+                    André Zambo Anguissa - SSC Napoli <br>
+                    Martin Hongla - Hellas Verona <br>
+                    Karl Toko Ekambi - Olympique Lyon
+                </p><br>
+
+                <p class="position"><STRONG>Ataque:</STRONG></p>
+                <p>
+                    Vincent Aboubakar - Al Nassr <br>
+                    Eric Maxim Choupo-Moting - FC Bayern München
+                
+                </p><br>
+              
+            </div>
+        </div>
+    </div>
+
+    <div class="conteudo">
+    </div>
+
+    <div class="caixa6">
+        <div class="titlegif">
+            <figure><img src="https://media.giphy.com/media/ABKlKd3iI44aJwaC1n/giphy.gif" alt="gif"></figure>
+        </div>
+    </div>
+    
+
+    <footer id="rodape" >
+        <p>CopyRigth &copy; 2022 - by giuli lorrany </p>
+           <p><a href="#" target="blank">Instagram</a> | <a href="#" target="blank">Twitter</a>
+             <!-- <a href="#">Tumbrl</a>  | <a href="#">Github</a> -->
+       </p>
+    </footer>
+    
+</body>
+</html>
